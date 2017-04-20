@@ -20,7 +20,6 @@ public class Test {
 	                super.startNode(name);
 	        }
 	        protected void writeText(QuickWriter writer, String text) {
-	            /**自定义格式化**/
 	            writer.write(text);
 	        }
 	        };
