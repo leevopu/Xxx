@@ -38,7 +38,6 @@ public class Test {
 	        array.add("y");
 	        array.add("z");
 	        user.setArray(array);
-	        user.setUrl("url");
 	        xstream.alias("xml", user.getClass());
 	        xstream.autodetectAnnotations(true);
 	        System.out.println(xstream.toXML(user));
