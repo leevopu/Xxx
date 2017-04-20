@@ -13,9 +13,6 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public List<String> getArray() {
-		return array;
-	}
 	public void setArray(List<String> array) {
 		this.array = array;
 	}
