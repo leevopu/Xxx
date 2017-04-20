@@ -12,7 +12,6 @@ import com.thoughtworks.xstream.io.xml.StaxDriver;
 
 public class Test {
 	/**
-	* 初始化，封装应用
 	*/
 	private static XStream xstream = new XStream(new StaxDriver() {
 	        public HierarchicalStreamWriter createWriter(Writer out) {
